@@ -37,7 +37,7 @@ body, html {
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  filter: blur(8px);
+  filter: blur(5px);
 }
 
 
@@ -76,7 +76,7 @@ body, html {
   padding-bottom: 30px;
 }
 #uv_logo{
-      max-width: 15rem;
+      max-width: 20rem;
       width: 100%;
       max-height: auto;
       margin-left:auto;
@@ -86,7 +86,9 @@ body, html {
       padding: 8px;
       box-sizing: border-box;
       border-radius: 4px;
+      box-shadow:  2px 4px  rgba(0,0,0,0.2);
       background:rgba(255,255,255,0.7);
+
     }
     #mwm_logo{
       top:4px;
@@ -107,19 +109,31 @@ ul,a{
       list-style: none;
       text-decoration: none;
       color: white;
-      font-size: 13px;
+      font-size: 15px;
     }
     p{
       font-family: Dokdo;
       display: inline-block;
       font-size: 15px;
       vertical-align: bottom;
+       text-shadow: 2px 2px 4px rgb(250,80,0);
     }
     h1{
-      font-size: 20px;
+      font-size: 30px;
+      text-shadow: 2px 2px 4px rgb(0,0,100);
+    }
+    @media(max-width: 450px){
+      h1{
+        font-size: 21px;
+      }
+      #uv_logo{
+        padding: 5px;
+      }
+
     }
     h5{
       font-size: 18px;
+       text-shadow: 2px 2px 4px rgb(0,0,100);
     }
 </style>
 <body>
